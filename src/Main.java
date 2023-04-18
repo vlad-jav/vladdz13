@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        System.out.println("  Привет !");
 
 
         Author Griboyedov = new Author(" Alexander  ", " Griboyedov ");
@@ -24,7 +24,7 @@ public class Main {
         System.out.println(Power.getYear());
 
         Power.setYear( 2020);
-        System.out.println("Год издания Power " + Power.getYear() );
+        System.out.println("Год издания  Power " + Power.getYear() );
     }
 }
 
