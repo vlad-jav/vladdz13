@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
@@ -12,14 +13,18 @@ public class Main {
 
         System.out.println(" WoeFromWit:");
         System.out.println(WoeFromWit.getName());
-        System.out.println(WoeFromWit.getAuthor());
+        System.out.println(WoeFromWit.getAuthor().getName() + "  " + WoeFromWit.getAuthor().getSurname());
         System.out.println(WoeFromWit.getYear());
 
+        System.out.println();
 
         System.out.println(" Power:");
         System.out.println(Power.getName());
-        System.out.println(Power.getAuthor());
+        System.out.println(Power.getAuthor().getName() + " " + Power.getAuthor().getSurname());
         System.out.println(Power.getYear());
+
+        Power.setYear( 2020);
+        System.out.println("Год издания Power " + Power.getYear() );
     }
 }
 
